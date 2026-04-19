@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/MeticulixIntelligenceLab//_next/:path+",
+        "destination": "/MeticulixIntelligenceLab/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
